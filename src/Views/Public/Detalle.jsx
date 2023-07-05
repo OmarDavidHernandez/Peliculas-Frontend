@@ -34,8 +34,8 @@ const Detalle = (parametros) => {
             setActores(res.data[0].actores);
             setDirectores(res.data[0].directores);
             setFranquicia(res.data[0].franquicia);
-            setReview(res.data[0].review.split('*-*'));
             setFecha(res.data[0].fecha);
+            setReview(res.data[0].review.split('*-*'));
         }
     }
   return (

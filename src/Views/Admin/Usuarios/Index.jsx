@@ -25,7 +25,6 @@ const IndexUsuarios = () => {
                   <CardTitle className=''>
                     <Link to={'/crear-usuario'} className='btn btn-primary'><i className='fa-solid fa-circle-plus'></i> Añadir</Link>
                   </CardTitle>
-                  <CardText>
                     <Table responsive bordered striped>
                       <thead>
                         <tr><th>#</th><th>NOMBRE</th><th>CORREO</th><th>CONTRASEÑA</th><th></th><th></th></tr>
@@ -46,9 +45,8 @@ const IndexUsuarios = () => {
                           </td>
                         </tr>
                       ))}
-                      </tbody>
-                    </Table>
-                  </CardText>
+                    </tbody>
+                  </Table>
               </CardBody>
           </Card>
         </Col>

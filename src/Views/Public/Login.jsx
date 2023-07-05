@@ -14,7 +14,7 @@ const Login = () => {
     if(res.status == true){
       Storage.set('authToken',res.data[1].token);
       Storage.set('authUser',res.data[0]);
-      ir('/usuarios');
+      ir('/movies');
     }
   }
   return (
